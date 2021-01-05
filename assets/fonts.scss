@@ -1,0 +1,89 @@
+// #####   Global font   #####
+
+
+@font-face {
+    font-family: 'Next';
+    src: url('/fonts/medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Next';
+    src: url('/fonts/demi.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Next';
+    src: url('/fonts/bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+// #####   Icon font   #####
+@font-face {
+	font-family: 'icons';
+	src: url('/fonts/icons.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+   
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	/* opacity: .8; */
+   
+	/* For safety - reset parent styles, that can break glyph codes*/
+	font-variant: normal;
+	text-transform: none;
+   
+	/* fix buttons height, for twitter bootstrap */
+	line-height: 1em;
+   
+	/* Animation center compensation - margins should be symmetric */
+	/* remove if not needed */
+	margin-left: .2em;
+   
+	/* you can be more comfortable with increased icons size */
+	/* font-size: 120%; */
+   
+	/* Font smoothing. That was taken from TWBS */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+   
+	
+  }
+   
+  .icon-clock:before { content: '\e800'; } /* '' */
+  .icon-phone:before { content: '\e801'; } /* '' */
+  .icon-cancel:before { content: '\e802'; } /* '' */
+  .icon-left:before { content: '\e803'; } /* '' */
+  .icon-right:before { content: '\e804'; } /* '' */
+  .icon-play:before { content: '\e805'; } /* '' */
+  .icon-search:before { content: '\e806'; } /* '' */
+  .icon-location:before { content: '\e807'; } /* '' */
+  .icon-download:before { content: '\e808'; } /* '' */
+  .icon-facebook:before { content: '\f09a'; } /* '' */
+  .icon-mail:before { content: '\f0e0'; } /* '' */
+  .icon-code:before { content: '\f121'; } /* '' */
+  .icon-calendar:before { content: '\f133'; } /* '' */
+  .icon-youtube:before { content: '\f16a'; } /* '' */
+  .icon-copyright:before { content: '\f1f9'; } /* '' */
