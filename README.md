@@ -1,4 +1,6 @@
-![favicon](https://github.com/MartCube/allseasonspanorama/blob/master/static/icon.png) 
+
+<img src="https://github.com/MartCube/allseasonspanorama/blob/master/static/icon.png" alt="drawing" width="100"/>
+
 # All seasons panorama
 
 ## Jamstack architecture
