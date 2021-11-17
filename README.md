@@ -1,4 +1,15 @@
-# panorama
+![favicon](https://github.com/MartCube/Danica/blob/master/static/favicon.png?raw=true) 
+# All seasons panorama
+
+## Jamstack architecture
+
+- Nuxt - full static site generation
+- Prismic as CMS
+- Netlify
+- internationalization with Vue i18n ( En, Mk )
+- Blog
+- Anime.js
+
 
 ## Build Setup
 
